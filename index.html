@@ -5,17 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>教學影片頁面</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .center-iframe {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
-    <iframe 
-        width="853" 
-        height="480" 
-        src="https://youtu.be/86iqV7xAYTQ" 
-        title="注音教學影片" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-        referrerpolicy="strict-origin-when-cross-origin" 
-        allowfullscreen>
-    </iframe>
+    <div class="center-iframe">
+        <iframe 
+            width="853" 
+            height="480" 
+            src="https://www.youtube.com/embed/86iqV7xAYTQ" 
+            title="注音教學影片" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+        </iframe>
+    </div>
 </body>
 </html>
