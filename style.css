@@ -16,4 +16,5 @@ iframe {
     width: 75%;
     height: 75%;
     border: none;
+    border-radius: 50%;
 }
